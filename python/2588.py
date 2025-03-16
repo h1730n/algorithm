@@ -1,10 +1,10 @@
-first_number = input()
-second_number = input()
+str_first_number = input()
+str_second_number = input()
 
-fn = int(first_number)
-sn = int(second_number)
+int_first_number = int(str_first_number)
+int_second_number = int(str_second_number)
 
-print(fn*int(second_number[2]))
-print(fn*int(second_number[1]))
-print(fn*int(second_number[0]))
-print(fn*sn)
+print(int_first_number*int(str_second_number[2]))
+print(int_first_number*int(str_second_number[1]))
+print(int_first_number*int(str_second_number[0]))
+print(int_first_number*int_second_number)
