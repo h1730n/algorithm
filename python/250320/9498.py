@@ -1,13 +1,13 @@
 a = input()
 score =int(a)
 
-if 100>=score>=90:
+if 90 <= score <= 100:
     print("A")
-elif 89>=score>=80:
+elif 80 <= score <= 89:
     print("B")
-elif 79>=score>=70:
+elif 70 <= score <= 79:
     print("C")
-elif 69>=score>=60:
+elif 60 <= score <= 69:
     print("D")
 else:
     print("F")

@@ -1,6 +1,5 @@
-a, b = input().split()
-A = int(a)
-B = int(b)
+A, B = map(int, input().split())
+
 if A>B:
     print('>'),
 elif A<B:
